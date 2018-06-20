@@ -19,3 +19,9 @@ build:
     
   ci:
     - node --version
+    - grunt --version
+    - mocha --version
+    - vows --version
+    - bower --version
+    - nvm list
+    - npm --version
