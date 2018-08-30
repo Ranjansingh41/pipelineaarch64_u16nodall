@@ -25,3 +25,4 @@ build:
     - bower --version
     - nvm list
     - npm --version
+    - java -version
