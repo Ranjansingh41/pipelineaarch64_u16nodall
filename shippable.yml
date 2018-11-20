@@ -26,3 +26,4 @@ build:
     - nvm list
     - npm --version
     - java -version
+    - java -jar /usr/local/selenium/selenium-server-standalone-3.141.5.jar --version
