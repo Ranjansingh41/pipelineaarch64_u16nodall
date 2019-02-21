@@ -3,14 +3,13 @@ language: node_js
 
 # Version number
 node_js:
-  - 6.16 #.2 
-  - 8.15 #.2 
-  #- 9.11 #.1 
-  - "10.15" #.0
-  - "11.6"
-runtime:
-  nodePool: Arm64
-
+  - 6.16  
+  - 8.15  
+  - "10.15" 
+  - "11.10"
+#runtime:
+  #nodePool: Arm64
+#
 build:
   pre_ci_boot:
     image_name: drydock/aarch64_u16nodall
